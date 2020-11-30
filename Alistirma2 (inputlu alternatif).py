@@ -8,7 +8,7 @@ while int(liste_len) != len(liste):
     liste.append(eleman)
 while x < len(liste):
     if x == len(liste) - 1:
-        x +=1 # While döngüsü bitsin diye yaptım yoksa bitmiyordu.
+        x +=1 # While döngüsü bitsin diye yaptım yoksa bitmiyordu. (gereksiz bişi olabilir)
     elif liste[x] > liste[x+1]:
         temp = liste[x] # Yer değiştirme yapmak için geçici değişkene değeri atıyorum.
         liste[x] = liste[x+1]
